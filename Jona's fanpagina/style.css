@@ -1,0 +1,159 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+body {
+    background-color: #d7eeff;
+
+
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+.hoofd nav ul li{
+    list-style: none; /* Dit zorgt ervoor dat de bullet points weggaan*/
+}
+
+.hoofd {
+    background-image: url(../image/leuk-hoor.jpg);
+    min-height: 50vh;
+    padding-bottom: 40vw;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/*fjjcjc*/
+
+.menu-container {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+
+.menu {
+
+
+    border: 4px dotted rgb(178, 85, 160);
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(195, 140, 195, 0.553);
+    min-height: 5vw;
+    align-items: center;
+
+
+
+}
+
+
+
+main {background-image: url(/image/Pastel\ macrons.webp);
+background-size: cover;
+background-position: center;
+background-repeat: repeat;
+padding: 4vw;
+
+}
+
+
+
+.ginger {
+   display: flex;
+   flex-direction: row;
+}
+
+.ginger img { width: 25vw;
+margin: 5px;
+border: 4px dotted rgb(178, 85, 160);
+border-radius: 15px;
+
+}
+
+@media (max-width:700px ) { 
+.ginger {
+    flex-direction: column;
+}
+
+.ginger img { width: 90vw;}
+
+}
+
+
+
+
+
+
+
+.boemba {
+  margin: 10px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.702);
+  border-radius: 15px;
+
+
+}
+
+footer {display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 15px;
+
+background-image: url(/image/aardbei.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding: 4vw;
+
+
+}
+
+.skeer { 
+
+    font-size: 3rem;
+    background-color: hotpink;
+    border: purple 2px solid; 
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.skeer:hover { 
+    background-color: white;
+
+}
+
+.lelijk { 
+
+display: flex;
+justify-content: space-between;
+width: 60%;
+
+}
+
+.lelijk div {
+
+    display: flex;
+   flex-direction: column;
+
+}
+
